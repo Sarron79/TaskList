@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="KtTeam_TaskList::general" title="KtTeam" module="KtTeam_TaskList" sortOrder="100" resource="KtTeam_TaskList::general"/>
+        <add id="KtTeam_TaskList::tasks" title="Manage Tasks" module="KtTeam_TaskList" sortOrder="10" action="task_list/task" resource="KtTeam_TaskList::tasks" parent="KtTeam_TaskList::general"/>
+    </menu>
+</config>

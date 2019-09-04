@@ -1,0 +1,8 @@
+<?php
+/** @var \KtTeam\TaskList\Block\View $this*/
+$tasks = $this->getTasks();
+?>
+
+<?php foreach ($tasks as $task): ?>
+    <div><?php echo $task->getTitle(); ?></div>
+<?php endforeach;?>
